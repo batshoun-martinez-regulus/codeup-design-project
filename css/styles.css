@@ -50,3 +50,55 @@ a:hover{
     align-items: center;
     border: 5px solid white;
 }
+/** 4 icon buttons below */
+.circle-1-icon{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    background-color: #e6563b;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+
+}
+.circle-2-icon{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    background-color: #eb9d3a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+}
+.circle-3-icon{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    background-color: #7cb06c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+}
+.circle-4-icon{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    background-color: #00aba9;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+}
+.card-img-top{
+    padding: 0;
+}
+.rounded{
+    box-shadow: hotpink;
+}
