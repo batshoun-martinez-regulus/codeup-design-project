@@ -1,15 +1,29 @@
 body{
     background-color: #f0f0f0;
 }
-a{
-    color: white;
+.white-bar{
+    height: 50px;
+    width: 100%;
+    top: 10px;
+    background-color: white;
+    position: absolute;
+    margin-top: 1em;
 }
-a:hover{
-    color: blue;
-
-
+.navbar-whole{
+    position: relative;
 }
-.circle-1{
+
+#c-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.circle {
+    padding: 1em;
+    margin: 2em;
+}
+
+#c1 {
     height: 105px;
     width: 105px;
     background-color: #e6563b;
@@ -20,7 +34,7 @@ a:hover{
     border: 5px solid white;
 
 }
-.circle-2{
+#c2 {
     height: 105px;
     width: 105px;
     background-color: #eb9d3a;
@@ -30,7 +44,7 @@ a:hover{
     align-items: center;
     border: 5px solid white;
 }
-.circle-3{
+#c3{
     height: 105px;
     width: 105px;
     background-color: #7cb06c;
@@ -40,7 +54,7 @@ a:hover{
     align-items: center;
     border: 5px solid white;
 }
-.circle-4{
+#c4{
     height: 105px;
     width: 105px;
     background-color: #00aba9;
@@ -101,4 +115,61 @@ a:hover{
 }
 .rounded{
     box-shadow: hotpink;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .navbar{
+        margin: 1em 0;
+        padding: 1em 0;
+    }
+    .pic-title{
+        text-align: center;
+        width: 100%;
+    }
+    .nav-link{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .top-links{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    @media only screen and (min-width: 600px) {
+        .navbar{
+            margin: 1em 0;
+            padding: 1em 0;
+        }
+        .pic-title{
+            text-align:center ;
+            width: 100%;
+        }
+        .nav-link{
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-content: start;
+
+
+        }
+        .top-links{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 1em;
+        }
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    ...
 }
