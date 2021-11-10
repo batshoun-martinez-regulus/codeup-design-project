@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Codeup Design</title>
+    <title>Testing Design</title>
 
     <!-- styles to follow this comment -->
     <!-- most important always at bottom -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
           integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
@@ -25,8 +27,8 @@
                 </div>
                 <div class="nav-link ">
                     <span class="top-links"><a href="#">SERVICE</a></span>
-                    <span class="top-links left-side"><a href="#">WORK</a></span>
-                    <span class="top-links right-side"><a href="#">BLOG</a></span>
+                    <span class="top-links"><a href="#">WORK</a></span>
+                    <span class="top-links"><a href="#">BLOG</a></span>
                     <span class="top-links"><a href="#">CONTACT</a></span>
                 </div>
             </nav>
@@ -53,29 +55,28 @@
     <!-- Need to complete the remainder of cards -->
     <!-- Used a mix of grid and flex to set up card -->
     <!-- All commented out items (minus cards) can be removed -->
+    <!--        <div class="row d-flex justify-content-start bg-secondary">-->
     <!-- created row to host card-title and card-body inside a grid row -->
     <div class="row">
         <!--first column it would be left on the desktop-->
+        <!--            <div class="col-sm d-flex flex-wrap justify-content-center bg-danger">-->
         <!-- col-12 will set expectations to take full screen on mobile device -->
         <div class="col-12 col-sm-6 d-flex justify-content-center">
+            <!-- adding width to card to help with sizing/spacing -->
             <!-- adding width to card to help with sizing/spacing -->
             <div style="width: 25rem">
                 <!-- adding padding to card -->
                 <div class="p-2">
-                    <!-- added a uniformed height and width for img -->
-                    <!-- need to think of a better way to resize img as display changes -->
-                    <!-- at 576px to around 650px imgs look square shaped -->
-                    <img src="assets/images/apple-ipad.jpg" class="card-img-top thickBorder rounded" alt="iPad with green apples" height="250px"
-                         width="350px">
+                    <img src="assets/images/apple-ipad.jpg" class="card-img-top thickBorder rounded" alt="iPad with green apples">
                     <div class="card-body d-flex justify-content-between align-items-center">
                         <!-- to match the wireframe changed card-title to be in a p tag instead of h tag -->
-                        <p class="col-8">FEATURED PROJECT</p>
+                        <p class="card-title">FEATURED PROJECT</p>
                         <!-- wrapping 4 circle icons in a flex div to provide spacing and alignment -->
-                        <div class="col-4 d-flex justify-content-around">
-                            <h5 class="rounded-circle red letter">D</h5>
-                            <h5 class="rounded-circle orange letter">D</h5>
-                            <h5 class="rounded-circle green letter">S</h5>
-                            <h5 class="rounded-circle teal letter">H</h5>
+                        <div class="d-flex justify-content-around">
+                            <div class="rounded-circle red">D</div>
+                            <div class="rounded-circle orange">D</div>
+                            <div class="rounded-circle green">S</div>
+                            <div class="rounded-circle teal">H</div>
                         </div>
                     </div>
                 </div>
@@ -85,21 +86,20 @@
         <!-- will not display on xs screens and smaller -->
         <div id="card2" class="col-sm-6 d-flex justify-content-center">
             <!-- adding width to card to help with sizing/spacing -->
+            <!-- adding width to card to help with sizing/spacing -->
             <div style="width: 25rem">
                 <!-- adding padding to card -->
                 <div class="p-2">
-                    <!-- added a uniformed height and width for img -->
-                    <img src="assets/images/macbook.jpg" class="card-img-top thickBorder rounded" alt="iPad with green apples" height="250px"
-                         width="350px">
+                    <img src="assets/images/apple-ipad.jpg" class="card-img-top thickBorder rounded" alt="iPad with green apples">
                     <div class="card-body d-flex justify-content-between align-items-center">
                         <!-- to match the wireframe changed card-title to be in a p tag instead of h tag -->
-                        <p class="col-8">FEATURED PROJECT</p>
+                        <p class="card-title">2nd PROJECT</p>
                         <!-- wrapping 4 circle icons in a flex div to provide spacing and alignment -->
-                        <div class="col-4 d-flex justify-content-around">
-                            <h5 class="rounded-circle red letter">D</h5>
-                            <h5 class="rounded-circle orange letter">D</h5>
-                            <h5 class="rounded-circle green letter">S</h5>
-                            <h5 class="rounded-circle teal letter">H</h5>
+                        <div class="d-flex justify-content-around">
+                            <div class="rounded-circle red">D</div>
+                            <div class="rounded-circle orange">D</div>
+                            <div class="rounded-circle green">S</div>
+                            <div class="rounded-circle teal">H</div>
                         </div>
                     </div>
                 </div>
@@ -107,21 +107,20 @@
         </div>
         <div id="card3" class="col-sm-6 d-flex justify-content-center">
             <!-- adding width to card to help with sizing/spacing -->
+            <!-- adding width to card to help with sizing/spacing -->
             <div style="width: 25rem">
                 <!-- adding padding to card -->
                 <div class="p-2">
-                    <!-- added a uniformed height and width for img -->
-                    <img src="assets/images/man.jpg" class="card-img-top thickBorder rounded" alt="iPad with green apples" height="250px"
-                         width="350px">
+                    <img src="assets/images/apple-ipad.jpg" class="card-img-top thickBorder rounded" alt="iPad with green apples">
                     <div class="card-body d-flex justify-content-between align-items-center">
                         <!-- to match the wireframe changed card-title to be in a p tag instead of h tag -->
-                        <p class="col-8">FEATURED PROJECT</p>
+                        <p class="card-title">3rd PROJECT</p>
                         <!-- wrapping 4 circle icons in a flex div to provide spacing and alignment -->
-                        <div class="col-4 d-flex justify-content-around">
-                            <h5 class="rounded-circle red letter">D</h5>
-                            <h5 class="rounded-circle orange letter">D</h5>
-                            <h5 class="rounded-circle green letter">S</h5>
-                            <h5 class="rounded-circle teal letter">H</h5>
+                        <div class="d-flex justify-content-around">
+                            <div class="rounded-circle red">D</div>
+                            <div class="rounded-circle orange">D</div>
+                            <div class="rounded-circle green">S</div>
+                            <div class="rounded-circle teal">H</div>
                         </div>
                     </div>
                 </div>
@@ -129,38 +128,57 @@
         </div>
         <div id="card4" class="col-sm-6 d-flex justify-content-center">
             <!-- adding width to card to help with sizing/spacing -->
+            <!-- adding width to card to help with sizing/spacing -->
             <div style="width: 25rem">
                 <!-- adding padding to card -->
                 <div class="p-2">
-                    <!-- added a uniformed height and width for img -->
-                    <img src="assets/images/security.jpg" class="card-img-top thickBorder rounded" alt="iPad with green apples" height="250px"
-                         width="350px">
+                    <img src="assets/images/apple-ipad.jpg" class="card-img-top thickBorder rounded" alt="iPad with green apples">
                     <div class="card-body d-flex justify-content-between align-items-center">
                         <!-- to match the wireframe changed card-title to be in a p tag instead of h tag -->
-                        <p class="col-8">FEATURED PROJECT</p>
+                        <p class="card-title">4th PROJECT</p>
                         <!-- wrapping 4 circle icons in a flex div to provide spacing and alignment -->
-                        <div class="col-4 d-flex justify-content-around">
-                            <h5 class="rounded-circle red letter">D</h5>
-                            <h5 class="rounded-circle orange letter">D</h5>
-                            <h5 class="rounded-circle green letter">S</h5>
-                            <h5 class="rounded-circle teal letter">H</h5>
+                        <div class="d-flex justify-content-around">
+                            <div class="rounded-circle red">D</div>
+                            <div class="rounded-circle orange">D</div>
+                            <div class="rounded-circle green">S</div>
+                            <div class="rounded-circle teal">H</div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- The third column, it should be on the right with rows on top of each other-->
-        <!-- Need to adjust this section to be on right of screen on certain breakpoints -->
-        <!-- As I continue to work to next screen size I learn something new -->
-        <div class="col-4 d-none d-md-block">
-            <div class="d-flex align-items-center"><p> THE ADMIN BAR AND ABSOLUTE POSITIONING</p></div>
+        <!--            &lt;!&ndash; second column it should be in the middle&ndash;&gt;-->
+        <!--            <div class="col-sm col-sm d-flex flex-wrap justify-content-center">-->
+        <!--                <div class="card" style="width: 18rem;">-->
+        <!--                    <img src="..." class="card-img-top" alt="...">-->
+        <!--                    <div class="card-body">-->
+        <!--                        <h5 class="card-title">Card title</h5>-->
+        <!--                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of-->
+        <!--                            the card's content.</p>-->
+        <!--                        <a href="#" class="btn btn-primary">Go somewhere</a>-->
+        <!--                    </div>-->
+        <!--                </div>-->
+        <!--                <div class="card" style="width: 18rem;">-->
+        <!--                    <img src="..." class="card-img-top" alt="...">-->
+        <!--                    <div class="card-body">-->
+        <!--                        <h5 class="card-title">Card title</h5>-->
+        <!--                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of-->
+        <!--                            the card's content.</p>-->
+        <!--                        <a href="#" class="btn btn-primary">Go somewhere</a>-->
+        <!--                    </div>-->
+        <!--                </div>-->
 
-            <div class=" d-flex align-items-center"><p>NIBBLER AWESOME WEBSITE TESTING</p></div>
+        <!--            </div>-->
+        <!--            &lt;!&ndash; The third column, it should be on the right with rows on top of each other&ndash;&gt;-->
+        <!--            <div class="col-4 d-none d-md-block">-->
+        <!--                <div class="d-flex align-items-center"><p> THE ADMIN BAR AND ABSOLUTE POSITIONING</p></div>-->
 
-            <div class="d-flex align-items-center"><p>HOW TO GET GOOGLE TO LIKE YOU</p></div>
+        <!--                <div class=" d-flex align-items-center"><p>NIBBLER AWESOME WEBSITE TESTING</p></div>-->
 
-            <div class="d-flex align-items-center"> TWITTER CONTENT GOES HERE</div>
-        </div>
+        <!--                <div class="d-flex align-items-center"><p>HOW TO GET GOOGLE TO LIKE YOU</p></div>-->
+
+        <!--                <div class="d-flex align-items-center"> TWITTER CONTENT GOES HERE</div>-->
+        <!--            </div>-->
     </div>
 </main>
 
