@@ -64,57 +64,44 @@ body{
     align-items: center;
     border: 5px solid white;
 }
-/** 4 icon buttons below */
-.circle-1-icon{
+/* creating 1 circle selector for all icons */
+/* below circle selector are color indicators for each circle */
+.rounded-circle{
     height: 30px;
     width: 30px;
-    padding: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red{
     background-color: #e6563b;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid white;
-
 }
-.circle-2-icon{
-    height: 30px;
-    width: 30px;
-    padding: 5px;
+.orange{
     background-color: #eb9d3a;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid white;
 }
-.circle-3-icon{
-    height: 30px;
-    width: 30px;
-    padding: 5px;
+.green{
     background-color: #7cb06c;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid white;
 }
-.circle-4-icon{
-    height: 30px;
-    width: 30px;
-    padding: 5px;
+.teal{
     background-color: #00aba9;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid white;
 }
 .card-img-top{
     padding: 0;
 }
-.rounded{
-    box-shadow: hotpink;
+/*removed padding from card-body to align with wireframe*/
+.card-body{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+/* added thick border to represent frame of pic */
+.thickBorder{
+    border: .5em solid lightgray;
+}
+/* changed font-family for all p tags to be Abel */
+p{
+    font-family: 'Abel', sans-serif;
+    margin-bottom: 0 !important;
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -171,5 +158,5 @@ body{
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
-    ...
+    /*...*/
 }
