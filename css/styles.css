@@ -104,8 +104,8 @@ p{
     margin-bottom: 0 !important;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
     .navbar{
         margin: 1em 0;
         padding: 1em 0;
@@ -124,6 +124,9 @@ p{
         justify-content: center;
         align-items: center;
         margin: 1em;
+    }
+    #card2, #card3, #card4{
+        display: none !important;
     }
 }
 
