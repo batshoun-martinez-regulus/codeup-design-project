@@ -51,45 +51,101 @@
 <hr style="height:4px;border-width:0;color:rgb(136,178,83);background-color:rgb(136,178,83); width: 95%">
 <!--this is the main section with 3 columns-->
 <main class="container">
-<!-- Commented out cards to focus on one -->
-<!-- Need to complete the remainder of cards -->
-<!-- Used a mix of grid and flex to set up card -->
-<!-- All commented out items (minus cards) can be removed -->
+    <!-- Commented out cards to focus on one -->
+    <!-- Need to complete the remainder of cards -->
+    <!-- Used a mix of grid and flex to set up card -->
+    <!-- All commented out items (minus cards) can be removed -->
     <!--        <div class="row d-flex justify-content-start bg-secondary">-->
-<!-- created row to host card-title and card-body inside a grid row -->
+    <!-- created row to host card-title and card-body inside a grid row -->
     <div class="row">
         <!--first column it would be left on the desktop-->
         <!--            <div class="col-sm d-flex flex-wrap justify-content-center bg-danger">-->
-<!-- col-12 will set expectations to take full screen on mobile device -->
-        <div class="col-12 d-flex justify-content-center">
-<!-- adding width to card to help with sizing/spacing -->
-<!-- adding width to card to help with sizing/spacing -->
+        <!-- col-12 will set expectations to take full screen on mobile device -->
+        <div class="col-12 col-sm-6 d-flex justify-content-center">
+            <!-- adding width to card to help with sizing/spacing -->
+            <!-- adding width to card to help with sizing/spacing -->
             <div style="width: 25rem">
-<!-- adding padding to card -->
+                <!-- adding padding to card -->
                 <div class="p-2">
                     <img src="assets/images/apple-ipad.jpg" class="card-img-top thickBorder rounded" alt="iPad with green apples">
-                <div class="card-body d-flex justify-content-between align-items-center">
-<!-- to match the wireframe changed card-title to be in a p tag instead of h tag -->
-                    <p class="card-title">FEATURED PROJECT</p>
-<!-- wrapping 4 circle icons in a flex div to provide spacing and alignment -->
-                    <div class="d-flex justify-content-around">
-                        <div class="rounded-circle red">D</div>
-                        <div class="rounded-circle orange">D</div>
-                        <div class="rounded-circle green">S</div>
-                        <div class="rounded-circle teal">H</div>
+                    <div class="card-body d-flex justify-content-between align-items-center">
+                        <!-- to match the wireframe changed card-title to be in a p tag instead of h tag -->
+                        <p class="card-title">FEATURED PROJECT</p>
+                        <!-- wrapping 4 circle icons in a flex div to provide spacing and alignment -->
+                        <div class="d-flex justify-content-around">
+                            <div class="rounded-circle red">D</div>
+                            <div class="rounded-circle orange">D</div>
+                            <div class="rounded-circle green">S</div>
+                            <div class="rounded-circle teal">H</div>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <!-- 2nd card; given an id to use for media queries -->
+        <!-- will not display on xs screens and smaller -->
+        <div id="card2" class="col-sm-6 d-flex justify-content-center">
+            <!-- adding width to card to help with sizing/spacing -->
+            <!-- adding width to card to help with sizing/spacing -->
+            <div style="width: 25rem">
+                <!-- adding padding to card -->
+                <div class="p-2">
+                    <img src="assets/images/apple-ipad.jpg" class="card-img-top thickBorder rounded" alt="iPad with green apples">
+                    <div class="card-body d-flex justify-content-between align-items-center">
+                        <!-- to match the wireframe changed card-title to be in a p tag instead of h tag -->
+                        <p class="card-title">2nd PROJECT</p>
+                        <!-- wrapping 4 circle icons in a flex div to provide spacing and alignment -->
+                        <div class="d-flex justify-content-around">
+                            <div class="rounded-circle red">D</div>
+                            <div class="rounded-circle orange">D</div>
+                            <div class="rounded-circle green">S</div>
+                            <div class="rounded-circle teal">H</div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <!--                <div class="card" style="width: 18rem;">-->
-            <!--                    <img src="..." class="card-img-top" alt="...">-->
-            <!--                    <div class="card-body">-->
-            <!--                        <h5 class="card-title">Card title</h5>-->
-            <!--                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of-->
-            <!--                            the card's content.</p>-->
-            <!--                        <a href="#" class="btn btn-primary">Go somewhere</a>-->
-            <!--                    </div>-->
-            <!--                </div>-->
+        </div>
+        <div id="card3" class="col-sm-6 d-flex justify-content-center">
+            <!-- adding width to card to help with sizing/spacing -->
+            <!-- adding width to card to help with sizing/spacing -->
+            <div style="width: 25rem">
+                <!-- adding padding to card -->
+                <div class="p-2">
+                    <img src="assets/images/apple-ipad.jpg" class="card-img-top thickBorder rounded" alt="iPad with green apples">
+                    <div class="card-body d-flex justify-content-between align-items-center">
+                        <!-- to match the wireframe changed card-title to be in a p tag instead of h tag -->
+                        <p class="card-title">3rd PROJECT</p>
+                        <!-- wrapping 4 circle icons in a flex div to provide spacing and alignment -->
+                        <div class="d-flex justify-content-around">
+                            <div class="rounded-circle red">D</div>
+                            <div class="rounded-circle orange">D</div>
+                            <div class="rounded-circle green">S</div>
+                            <div class="rounded-circle teal">H</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="card4" class="col-sm-6 d-flex justify-content-center">
+            <!-- adding width to card to help with sizing/spacing -->
+            <!-- adding width to card to help with sizing/spacing -->
+            <div style="width: 25rem">
+                <!-- adding padding to card -->
+                <div class="p-2">
+                    <img src="assets/images/apple-ipad.jpg" class="card-img-top thickBorder rounded" alt="iPad with green apples">
+                    <div class="card-body d-flex justify-content-between align-items-center">
+                        <!-- to match the wireframe changed card-title to be in a p tag instead of h tag -->
+                        <p class="card-title">4th PROJECT</p>
+                        <!-- wrapping 4 circle icons in a flex div to provide spacing and alignment -->
+                        <div class="d-flex justify-content-around">
+                            <div class="rounded-circle red">D</div>
+                            <div class="rounded-circle orange">D</div>
+                            <div class="rounded-circle green">S</div>
+                            <div class="rounded-circle teal">H</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <!--            &lt;!&ndash; second column it should be in the middle&ndash;&gt;-->
         <!--            <div class="col-sm col-sm d-flex flex-wrap justify-content-center">-->
