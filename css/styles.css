@@ -67,9 +67,9 @@ body{
 /* creating 1 circle selector for all icons */
 /* below circle selector are color indicators for each circle */
 .rounded-circle{
-    height: 30px;
-    width: 30px;
-    margin: 10px;
+    height: 18px;
+    width: 18px;
+    margin: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,9 +103,21 @@ p{
     font-family: 'Abel', sans-serif;
     margin-bottom: 0 !important;
 }
+.col-8{
+    padding-left: 0 !important;
+}
+.col-4{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.letter{
+    font-size: 7px !important;
+    /*font-weight: bold !important;*/
+}
 
 /* Extra small devices (phones, 576px and down) */
-@media only screen and (max-width: 576px) {
+/* Changed max-width to 575px to ensure we captured 576px as new size */
+@media only screen and (max-width: 575px) {
     .navbar{
         margin: 1em 0;
         padding: 1em 0;
@@ -133,7 +145,7 @@ p{
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    @media only screen and (min-width: 600px) {
+    @media only screen and (min-width: 576px) {
         .navbar{
             margin: 1em 0;
             padding: 1em 0;
@@ -156,6 +168,9 @@ p{
             align-items: center;
             margin: 1em;
         }
+    }
+    .rounded-circle{
+        margin: 1em;
     }
 }
 
