@@ -180,7 +180,6 @@ p {
 
 .letter {
     font-size: 7px !important;
-    /*font-weight: bold !important;*/
 }
 
 /* Extra small devices (phones, 576px and down) */
@@ -261,4 +260,10 @@ p {
 
 
 }
-
+#theLast>h5{
+    font-family: 'Anton', sans-serif;
+    height: 28px;
+}
+.blueBird{
+    color: dodgerblue;
+}
