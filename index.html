@@ -55,95 +55,101 @@
     <!-- All commented out items (minus cards) can be removed -->
     <!-- created row to host card-title and card-body inside a grid row -->
     <div class="row">
-        <!--first column it would be left on the desktop-->
-        <!-- col-12 will set expectations to take full screen on mobile device -->
-        <div class="col-12 col-sm-6 d-flex justify-content-center">
-            <!-- adding width to card to help with sizing/spacing -->
-            <div style="width: 25rem">
-                <!-- adding padding to card -->
-                <div class="p-2">
-                    <!-- added a uniformed height and width for img -->
-                    <!-- need to think of a better way to resize img as display changes -->
-                    <!-- at 576px to around 650px imgs look square shaped -->
-                    <img src="assets/images/apple-ipad.jpg" class="card-img-top thickBorder rounded" alt="iPad with green apples" height="250px"
-                         width="350px">
-                    <div class="card-body d-flex justify-content-between align-items-center">
-                        <!-- to match the wireframe changed card-title to be in a p tag instead of h tag -->
-                        <p class="col-8">FEATURED PROJECT</p>
-                        <!-- wrapping 4 circle icons in a flex div to provide spacing and alignment -->
-                        <div class="col-4 d-flex justify-content-around">
-                            <h5 class="rounded-circle red letter">D</h5>
-                            <h5 class="rounded-circle orange letter">D</h5>
-                            <h5 class="rounded-circle green letter">S</h5>
-                            <h5 class="rounded-circle teal letter">H</h5>
+        <div class="col-8">
+            <p class="text-center">Selected Work</p>
+            <!-- nesting row inside column for 4 sq layout -->
+            <div class="row">
+                <!--first column it would be left on the desktop-->
+                <!-- col-12 will set expectations to take full screen on mobile device -->
+                <div id="card1" class="col-12 col-sm-6 d-flex justify-content-center">
+                    <!-- adding width to card to help with sizing/spacing -->
+                    <div style="width: 25rem">
+                        <!-- adding padding to card -->
+                        <div class="p-2">
+                            <!-- added a uniformed height and width for img -->
+                            <!-- need to think of a better way to resize img as display changes -->
+                            <!-- at 576px to around 650px imgs look square shaped -->
+                            <img src="assets/images/apple-ipad.jpg" class="card-img-top thickBorder rounded" alt="iPad with green apples" height="250px"
+                                 width="350px">
+                            <div class="card-body d-flex justify-content-between align-items-center">
+                                <!-- to match the wireframe changed card-title to be in a p tag instead of h tag -->
+                                <p class="col-8">FEATURED PROJECT</p>
+                                <!-- wrapping 4 circle icons in a flex div to provide spacing and alignment -->
+                                <div class="col-4 d-flex justify-content-around">
+                                    <h5 class="rounded-circle red letter">D</h5>
+                                    <h5 class="rounded-circle orange letter">D</h5>
+                                    <h5 class="rounded-circle green letter">S</h5>
+                                    <h5 class="rounded-circle teal letter">H</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <!-- 2nd card; given an id to use for media queries -->
-        <!-- will not display on xs screens and smaller -->
-        <div id="card2" class="col-sm-6 d-flex justify-content-center">
-            <!-- adding width to card to help with sizing/spacing -->
-            <div style="width: 25rem">
-                <!-- adding padding to card -->
-                <div class="p-2">
-                    <!-- added a uniformed height and width for img -->
-                    <img src="assets/images/macbook.jpg" class="card-img-top thickBorder rounded" alt="iPad with green apples" height="250px"
-                         width="350px">
-                    <div class="card-body d-flex justify-content-between align-items-center">
-                        <!-- to match the wireframe changed card-title to be in a p tag instead of h tag -->
-                        <p class="col-8">FEATURED PROJECT</p>
-                        <!-- wrapping 4 circle icons in a flex div to provide spacing and alignment -->
-                        <div class="col-4 d-flex justify-content-around">
-                            <h5 class="rounded-circle red letter">D</h5>
-                            <h5 class="rounded-circle orange letter">D</h5>
-                            <h5 class="rounded-circle green letter">S</h5>
-                            <h5 class="rounded-circle teal letter">H</h5>
+                <!-- 2nd card; given an id to use for media queries -->
+                <!-- will not display on xs screens and smaller -->
+                <div id="card2" class="col-sm-6 d-flex justify-content-center">
+                    <!-- adding width to card to help with sizing/spacing -->
+                    <div style="width: 25rem">
+                        <!-- adding padding to card -->
+                        <div class="p-2">
+                            <!-- added a uniformed height and width for img -->
+                            <img src="assets/images/macbook.jpg" class="card-img-top thickBorder rounded" alt="iPad with green apples" height="250px"
+                                 width="350px">
+                            <div class="card-body d-flex justify-content-between align-items-center">
+                                <!-- to match the wireframe changed card-title to be in a p tag instead of h tag -->
+                                <p class="col-8">FEATURED PROJECT</p>
+                                <!-- wrapping 4 circle icons in a flex div to provide spacing and alignment -->
+                                <div class="col-4 d-flex justify-content-around">
+                                    <h5 class="rounded-circle red letter">D</h5>
+                                    <h5 class="rounded-circle orange letter">D</h5>
+                                    <h5 class="rounded-circle green letter">S</h5>
+                                    <h5 class="rounded-circle teal letter">H</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div id="card3" class="col-sm-6 d-flex justify-content-center">
-            <!-- adding width to card to help with sizing/spacing -->
-            <div style="width: 25rem">
-                <!-- adding padding to card -->
-                <div class="p-2">
-                    <!-- added a uniformed height and width for img -->
-                    <img src="assets/images/man.jpg" class="card-img-top thickBorder rounded" alt="iPad with green apples" height="250px"
-                         width="350px">
-                    <div class="card-body d-flex justify-content-between align-items-center">
-                        <!-- to match the wireframe changed card-title to be in a p tag instead of h tag -->
-                        <p class="col-8">FEATURED PROJECT</p>
-                        <!-- wrapping 4 circle icons in a flex div to provide spacing and alignment -->
-                        <div class="col-4 d-flex justify-content-around">
-                            <h5 class="rounded-circle red letter">D</h5>
-                            <h5 class="rounded-circle orange letter">D</h5>
-                            <h5 class="rounded-circle green letter">S</h5>
-                            <h5 class="rounded-circle teal letter">H</h5>
+                <div id="card3" class="col-sm-6 d-flex justify-content-center">
+                    <!-- adding width to card to help with sizing/spacing -->
+                    <div style="width: 25rem">
+                        <!-- adding padding to card -->
+                        <div class="p-2">
+                            <!-- added a uniformed height and width for img -->
+                            <img src="assets/images/man.jpg" class="card-img-top thickBorder rounded" alt="iPad with green apples" height="250px"
+                                 width="350px">
+                            <div class="card-body d-flex justify-content-between align-items-center">
+                                <!-- to match the wireframe changed card-title to be in a p tag instead of h tag -->
+                                <p class="col-8">FEATURED PROJECT</p>
+                                <!-- wrapping 4 circle icons in a flex div to provide spacing and alignment -->
+                                <div class="col-4 d-flex justify-content-around">
+                                    <h5 class="rounded-circle red letter">D</h5>
+                                    <h5 class="rounded-circle orange letter">D</h5>
+                                    <h5 class="rounded-circle green letter">S</h5>
+                                    <h5 class="rounded-circle teal letter">H</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div id="card4" class="col-sm-6 d-flex justify-content-center">
-            <!-- adding width to card to help with sizing/spacing -->
-            <div style="width: 25rem">
-                <!-- adding padding to card -->
-                <div class="p-2">
-                    <!-- added a uniformed height and width for img -->
-                    <img src="assets/images/security.jpg" class="card-img-top thickBorder rounded" alt="iPad with green apples" height="250px"
-                         width="350px">
-                    <div class="card-body d-flex justify-content-between align-items-center">
-                        <!-- to match the wireframe changed card-title to be in a p tag instead of h tag -->
-                        <p class="col-8">FEATURED PROJECT</p>
-                        <!-- wrapping 4 circle icons in a flex div to provide spacing and alignment -->
-                        <div class="col-4 d-flex justify-content-around">
-                            <h5 class="rounded-circle red letter">D</h5>
-                            <h5 class="rounded-circle orange letter">D</h5>
-                            <h5 class="rounded-circle green letter">S</h5>
-                            <h5 class="rounded-circle teal letter">H</h5>
+                <div id="card4" class="col-sm-6 d-flex justify-content-center">
+                    <!-- adding width to card to help with sizing/spacing -->
+                    <div style="width: 25rem">
+                        <!-- adding padding to card -->
+                        <div class="p-2">
+                            <!-- added a uniformed height and width for img -->
+                            <img src="assets/images/security.jpg" class="card-img-top thickBorder rounded" alt="iPad with green apples" height="250px"
+                                 width="350px">
+                            <div class="card-body d-flex justify-content-between align-items-center">
+                                <!-- to match the wireframe changed card-title to be in a p tag instead of h tag -->
+                                <p class="col-8">FEATURED PROJECT</p>
+                                <!-- wrapping 4 circle icons in a flex div to provide spacing and alignment -->
+                                <div class="col-4 d-flex justify-content-around">
+                                    <h5 class="rounded-circle red letter">D</h5>
+                                    <h5 class="rounded-circle orange letter">D</h5>
+                                    <h5 class="rounded-circle green letter">S</h5>
+                                    <h5 class="rounded-circle teal letter">H</h5>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -153,13 +159,28 @@
         <!-- Need to adjust this section to be on right of screen on certain breakpoints -->
         <!-- As I continue to work to next screen size I learn something new -->
         <div class="col-4 d-none d-md-block">
-            <div class="d-flex align-items-center"><p> THE ADMIN BAR AND ABSOLUTE POSITIONING</p></div>
-
-            <div class=" d-flex align-items-center"><p>NIBBLER AWESOME WEBSITE TESTING</p></div>
-
-            <div class="d-flex align-items-center"><p>HOW TO GET GOOGLE TO LIKE YOU</p></div>
-
-            <div class="d-flex align-items-center"> TWITTER CONTENT GOES HERE</div>
+            <p class="pb-2">The Last</p>
+            <div class="row" id="theLast">
+                <h5 class="col-12">
+                    <div class="pb-2 d-flex justify-content-between align-content-center">
+                        <img src="/assets/images/mobile-phone.jpg" alt="" class="col-3">
+                        <h5 class="col-9">THE ADMIN BAR AND ABSOLUTE POSITIONING</h5>
+                    </div>
+                    <div class="pb-2 d-flex justify-content-between align-content-center">
+                        <img src="/assets/images/head.jpg" alt="" class="col-3">
+                        <h5 class="col-9">NIBBLER AWESOME WEBSITE TESTING</h5>
+                    </div>
+                    <div class="pb-2 d-flex justify-content-between align-content-center">
+                        <img src="/assets/images/ipad.jpg" alt="" class="col-3">
+                        <h5 class="col-9">HOW TO GET GOOGLE TO LIKE YOU</h5>
+                    </div>
+                    <div class="pt-4 pl-3">
+                        <p class="pt-4"><i class="fab fa-twitter blueBird"></i>  LATEST TWEET</p>
+                        <p class="pt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias placeat quaerat quis voluptate. Debitis
+                            doloremque error eveniet harum id iure natus possimus quibusdam quisquam quo, ratione sed tenetur ut voluptate.</p>
+                    </div>
+                </h5>
+            </div>
         </div>
     </div>
 </main>
@@ -172,5 +193,24 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/87be2402f7.js" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+<!--
+// Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+-->
