@@ -55,7 +55,7 @@
     <!-- All commented out items (minus cards) can be removed -->
     <!-- created row to host card-title and card-body inside a grid row -->
     <div class="row">
-        <div class="col-8">
+        <div class="col-12 col-md-8">
             <p class="text-center">Selected Work</p>
             <!-- nesting row inside column for 4 sq layout -->
             <div class="row">
@@ -156,9 +156,8 @@
             </div>
         </div>
         <!-- The third column, it should be on the right with rows on top of each other-->
-        <!-- Need to adjust this section to be on right of screen on certain breakpoints -->
-        <!-- As I continue to work to next screen size I learn something new -->
-        <div class="col-4 d-none d-md-block">
+        <!-- Adjusted col to only display on md-4 and up displays -->
+        <div class="col-md-4 d-none d-md-block">
             <p class="pb-2">The Last</p>
             <div class="row" id="theLast">
                 <h5 class="col-12">
