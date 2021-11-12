@@ -274,8 +274,10 @@ p {
         width: 100%;
         padding: 0;
     }
-
-
+    .pic-size{
+        height: 150px !important;
+        width: 209px !important;
+    }
 }
 #theLast>h5{
     font-family: 'Anton', sans-serif;
@@ -284,3 +286,20 @@ p {
 .blueBird{
     color: dodgerblue;
 }
+
+/* Large devices (desktops, 992px - 1024px)*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .pic-size{
+        height: 175px !important;
+        width: 255px !important;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    .pic-size{
+        height: 200px !important;
+        width: 300px !important;
+    }
+}
+
